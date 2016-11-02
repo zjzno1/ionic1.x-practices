@@ -1,0 +1,40 @@
+<ion-view>
+<ion-header-bar align-title="left" class="bar-header bar-black">
+<button class="button button-icon button-clear button-light" ng-click="goBack()">
+      发现
+    </button>
+       <h1 class="title title-center header-item">朋友圈</h1>
+  </ion-header-bar>
+  <ion-content lazy-scroll>
+
+  <div class="content">
+    <div class="bac-pic">
+        
+        <div class="head-pic">
+          
+        </div>
+      </div>
+    <!-- <ion-refresher> 下拉刷新指令  -->
+  <ion-refresher pulling-text="下拉刷新" on-refresh="vm.doRefresh()"></ion-refresher>
+    <div ng-repeat="message in vm.messages" >
+      <div class="pyq-block">
+        <div class="pyq-head-pic">
+          
+        </div>
+        <div class="pyq-content">
+          <div class="py-name">
+            {{message.name}}
+          </div>
+          <div class="pyq-message">
+            <div class="pyq-img-span"  ng-repeat="item in message.img">
+              <img class="pyq-img" image-lazy-src="{{item}}" image-lazy-distance-from-bottom-to-load="100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ion-infinite-scroll 上拉加载数据指令 distance默认1% nf-if的值为false时，就禁止执行on-infinite  -->
+    <ion-infinite-scroll ng-if="!vm.moredata" on-infinite="vm.loadMore()" distance="1%" ></ion-infinite-scroll>
+  </div>
+  </ion-content>
+</ion-view>

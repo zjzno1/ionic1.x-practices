@@ -1,0 +1,198 @@
+/* Empty. Add your own CSS if you like */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.bar-common {
+	line-height: 34px;
+	font-size: 16px;
+	height: 65px;
+	padding-top: 25px;
+}
+.bar-common::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+/*.pic-right {
+	float: right;
+	display: block;
+}*/
+.pic-fize {
+	font-size: 25px;
+	margin-left: 3%;
+	margin-right: 4%;
+}
+.search {
+	opacity: 0.6;
+	height: 28px !important;
+	padding-left: 10px !important;
+	margin-left: 3%;
+	margin-top: 3px;
+	width: 50%;
+}
+.first-block {
+	margin-top: 65px;
+}
+.block {
+	width: 100%;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #333333;
+}
+.block::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.div-img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 20px;
+	border-radius: 4px;
+}
+.head-pic {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+.person-detail {
+	margin-top: 20px;
+	float: left;
+}
+
+.person-name {
+	font-size: 18px;
+}
+.person-page {
+	font-size: 12px;
+	color: #a2a2a2;
+	margin-top: 5px;
+}
+.arrow-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 10px;
+	color: #a2a2a2;
+}
+.row {
+	background-color: #f1f1f1;
+    height: 1px;
+    padding: 0;
+}
+.vip,.collection,.settings{
+	width: 33%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	color: #333333;
+}
+.blue {
+	color: #387ef5;
+}
+.column {
+	width: 1px;
+	height: 30px;
+	margin-top: 10px;
+	background-color: #f1f1f1;
+	float: left;
+}
+.lover-level {
+	height: 10px;
+	background-color: #cacaca;
+}
+.money-block {
+	height: 60px;
+	line-height: 60px;
+}
+.money {
+	float: left;
+	font-size: 25px;
+}
+.money-detail {
+	float: right;
+	font-size: 12px;
+	color: green;
+}
+.money-detail-right {
+	color: #a2a2a2;
+}
+.little-block {
+	width: 50%;
+	height: 70px;
+	float: left;
+}
+.little-block::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.little-block-icon {
+	display: block;
+	float: left;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.little-block-content {
+	float: left;
+}
+.little-block-column {
+	height: 50px;
+	float: right;
+	display: block;
+}
+.little-block-content-title {
+	margin-top: 20px;
+}
+.little-block-content-message {
+	margin-top: 5px;
+	font-size: 13px;
+	color: gray;
+}
+.bill {
+	width: 35px;
+}
+.box {
+	height: 100%;
+}
+/*.blue {
+	background-color: blue;
+}*/
+.yellow {
+	background-color: yellow;
+}
+.pink {
+	background-color: green;
+}
+.come-in {
+	font-size: 20px;
+	color: #333333;
+	position: absolute;
+	bottom: 50px;
+	width: 100px;
+	left: 135px;
+}
+.intro-img {
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

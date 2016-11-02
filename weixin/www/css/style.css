@@ -1,0 +1,214 @@
+/* Empty. Add your own CSS if you like */
+.bar-common {
+	font-size: 16px;
+	height: 65px;
+	padding-top: 25px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 1px;
+}
+.index-title {
+	display: block;
+	margin-top: 12px;
+    margin: auto;
+    width: 60%;
+    margin-left: 20%;
+}
+.content {
+	/*margin-top: 65px;*/
+	/*padding-top: 65px;*/
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #efefef;
+}
+.bacc {
+	background-color: #efefef;
+}
+.block {
+	background-color: #ffffff;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 18px;
+	position: relative;
+}
+.block:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.top-line {
+	border-top: 1px solid #bdbdbd;
+}
+.bottom-line {
+	border-bottom: 1px solid #bdbdbd;
+}
+.block-title {
+	display: inline-block;
+	padding-top: 3px;
+}
+.blue {
+	color: #1761f9;
+	font-size: 25px;
+}
+
+.icon-div {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.arrow-right {
+	float: right;
+	color: #b1b1b1;
+	position: absolute;
+	top: 50%;
+	margin-top: -9px;
+	right: 15px;
+}
+.cut-off-div {
+	width: 100%;
+	background-color: #ffffff;
+	height: 1px;
+}
+.cut-off {
+	margin: 0;
+	padding: 0;
+	height: 0px;
+	border: 0;
+	border-top: 1px solid #bdbdbd;
+	width: 97%;
+	float: right;
+}
+.cut-off:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.head-icon {
+	height: 50px;
+	width: 50px;
+	border-radius: 4px;
+	margin: 0 15px;
+	float: left;
+	background-color: blue;
+}
+
+.person-message {
+	font-size: 14px;
+	height: 50px;
+}
+.screen-name {
+	margin-top: 3px;
+}
+.user-name {
+	margin-top: 3px;
+}
+.bac-pic {
+	width: 100%;
+	height: 200px;
+	background-color: green;
+	margin-bottom: 100px;
+	position: relative;
+	margin-top: -1px;
+}
+.head-pic {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	bottom: -30px;
+	right: 50px;
+	background-color: red;
+}
+.pyq-block {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.pyq-block::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.pyq-content {
+	float: left;
+	margin-left: 10px;
+	width: 80%;
+}
+.pyq-head-pic {
+	height: 35px;
+	width: 35px;
+	float: left;
+	background-color: blue;
+	border-radius: 4px;
+}
+.py-name {
+	font-size: 14px;
+	color: blue;
+}
+
+.back-button {
+	display: block !important;
+	float: left !important;
+}
+.h100 {
+	height: 100px;
+}
+.pyq-img-span {
+	width: 33.333%;
+	height: 100px;
+	display: inline-block;
+}
+.pyq-img {
+	width: 100%;
+	height: 100%;
+}
+.title {
+	text-align: center !important;
+	font-size: 18px !important;
+	color: #ffffff;
+}
+.bar-black {
+	background-color: #333333 !important;
+}
+.bar {
+	background-image: none;
+}
+.title {
+	left: 0 !important;
+}
+.come-in {
+	font-size: 20px;
+	color: #333333;
+	position: absolute;
+	bottom: 50px;
+	width: 100px;
+	left: 135px;
+}
+.intro-img {
+	height: 100%;
+}
+.cs {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
